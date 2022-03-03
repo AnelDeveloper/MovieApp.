@@ -1,0 +1,25 @@
+.imglist:hover{
+    transform: scale(1.05);
+    transition: linear 0.2s;
+}
+.cardParent{
+width: 33%;
+}
+.cardTitle{
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 800px) {
+    .cardParent{
+        width: auto;
+        }
+    img{
+        width: 400px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    img{
+        width: 300px;
+    }
+  }
